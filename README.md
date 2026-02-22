@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# TypePost - Pixel Perfect Post Creator
 
-# Run and deploy your AI Studio app
+A modern, fast, and elegant tool to create pixel-perfect social media posts using React and Vite.
 
-This contains everything you need to run your app locally.
+## 🚀 Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1MdhOYsGBxDja_b2Zq9pWq028t0N5JvqJ
+- **Live Editor**: Real-time adjustment of colors, text, and layouts.
+- **Pixel-Perfect Preview**: High-fidelity preview of your social media posts.
+- **Instant Export**: Download your creations as high-quality images.
+- **Responsive Design**: Works seamlessly on mobile and desktop.
 
-## Run Locally
+## 🛠️ Tech Stack
 
-**Prerequisites:**  Node.js
+- **Framework**: React 19
+- **Build Tool**: Vite
+- **Language**: TypeScript
+- **Icons**: Lucide React
+- **Engine**: html-to-image
 
+## 📦 Getting Started
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+### 1. Install Dependencies
+```bash
+npm install
+```
+
+### 2. Run Development Server
+```bash
+npm run dev
+```
+
+### 3. Build for Production
+```bash
+npm run build
+```
